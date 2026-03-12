@@ -1,0 +1,7 @@
+file = open('codingal.txt')
+read = file.read()
+num = read.split("\n")
+print(num)
+count = len(num)
+print("There are",count,"lines in this file")
+file.close()
