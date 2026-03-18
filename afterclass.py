@@ -1,0 +1,9 @@
+file = open("afterclass.txt","w")
+file.write("Hi my name is Bhavin \n")
+file = open("afterclass.txt")
+print(file.read())
+file = open("afterclass.txt","a")
+file.write("Hi my name is Trivani \n")
+file = open("afterclass.txt")
+print(file.read())
+
